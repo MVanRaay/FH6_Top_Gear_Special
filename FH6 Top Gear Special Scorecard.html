@@ -9,21 +9,224 @@
         </header>
         <main>
             <div>
-                <table class="table table-striped table-bordered table-hover">
+                <table class="table table-striped table-bordered table-hover text-center align-middle">
                     <thead>
                         <tr>
                             <th scope="col">Event</th>
                             <th scope="col">Person 1</th>
                             <th scope="col">Person 2</th>
-                            <th scope="col">Person 3</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">Fuji Shibazakura speed zone</th>
-                            <td><input type="checkbox" class="checkbox"></td>
-                            <td><input type="checkbox" class="checkbox"></td>
-                            <td><input type="checkbox" class="checkbox"></td>
+                            <th scope="row">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="pr-2">
+                                        Fuji Shibazakura speed zone
+                                    </div>
+                                    <div class="rounded-circle bg-primary" style="width: 1.5em; height: 1.5em;"></div>
+                                </div>
+                            </th>
+                            <td>
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-w" name="fuji-shibaz-p1" id="fuji-shibaz-p1-w" autocomplete="off"> Won
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-2" name="fuji-shibaz-p1" id="fuji-shibaz-p1-2" autocomplete="off"> 2nd Place
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-f" name="fuji-shibaz-p1" id="fuji-shibaz-p1-f" autocomplete="off"> Finished
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-dnf" name="fuji-shibaz-p1" id="fuji-shibaz-p1-dnf" autocomplete="off"> DNF
+                                    </label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-w" name="fuji-shibaz-p2" id="fuji-shibaz-p2-w" autocomplete="off"> Won
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-2" name="fuji-shibaz-p2" id="fuji-shibaz-p2-2" autocomplete="off"> 2nd Place
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-f" name="fuji-shibaz-p2" id="fuji-shibaz-p2-f" autocomplete="off"> Finished
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-dnf" name="fuji-shibaz-p2" id="fuji-shibaz-p2-dnf" autocomplete="off"> DNF
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="pr-2">
+                                        Hakone Turns speed zone
+                                    </div>
+                                    <div class="rounded-circle bg-primary" style="width: 1.5em; height: 1.5em;"></div>
+                                </div>
+                            </th>
+                            <td>
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-w" name="hakone-p1" id="hakone-p1-w" autocomplete="off"> Won
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-2" name="hakone-p1" id="hakone-p1-2" autocomplete="off"> 2nd Place
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-f" name="hakone-p1" id="hakone-p1-f" autocomplete="off"> Finished
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-dnf" name="hakone-p1" id="hakone-p1-dnf" autocomplete="off"> DNF
+                                    </label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-w" name="hakone-p2" id="hakone-p2-w" autocomplete="off"> Won
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-2" name="hakone-p2" id="hakone-p2-2" autocomplete="off"> 2nd Place
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-f" name="hakone-p2" id="hakone-p2-f" autocomplete="off"> Finished
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-dnf" name="hakone-p2" id="hakone-p2-dnf" autocomplete="off"> DNF
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="pr-2">
+                                        Nangan Turn speed trap
+                                    </div>
+                                    <div class="rounded-circle bg-warning" style="width: 1.5em; height: 1.5em;"></div>
+                                </div>
+                            </th>
+                            <td>
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-w" name="nangan-p1" id="nangan-p1-w" autocomplete="off"> Won
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-2" name="nangan-p1" id="nangan-p1-2" autocomplete="off"> 2nd Place
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-f" name="nangan-p1" id="nangan-p1-f" autocomplete="off"> Finished
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-dnf" name="nangan-p1" id="nangan-p1-dnf" autocomplete="off"> DNF
+                                    </label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-w" name="nangan-p2" id="nangan-p2-w" autocomplete="off"> Won
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-2" name="nangan-p2" id="nangan-p2-2" autocomplete="off"> 2nd Place
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-f" name="nangan-p2" id="nangan-p2-f" autocomplete="off"> Finished
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-dnf" name="nangan-p2" id="nangan-p2-dnf" autocomplete="off"> DNF
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="pr-2">
+                                        Irokawa Launch danger sign
+                                    </div>
+                                    <div class="rounded-circle bg-danger" style="width: 1.5em; height: 1.5em;"></div>
+                                </div>
+                            </th>
+                            <td>
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-w" name="irokawa-launch-p1" id="irokawa-launch-p1-w" autocomplete="off"> Won
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-2" name="irokawa-launch-p1" id="irokawa-launch-p1-2" autocomplete="off"> 2nd Place
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-f" name="irokawa-launch-p1" id="irokawa-launch-p1-f" autocomplete="off"> Finished
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-dnf" name="irokawa-launch-p1" id="irokawa-launch-p1-dnf" autocomplete="off"> DNF
+                                    </label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-w" name="irokawa-launch-p2" id="irokawa-launch-p2-w" autocomplete="off"> Won
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-2" name="irokawa-launch-p2" id="irokawa-launch-p2-2" autocomplete="off"> 2nd Place
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-f" name="irokawa-launch-p2" id="irokawa-launch-p2-f" autocomplete="off"> Finished
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-dnf" name="irokawa-launch-p2" id="irokawa-launch-p2-dnf" autocomplete="off"> DNF
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="pr-2">
+                                        Irokawa Quarter Mile drag meet
+                                    </div>
+                                    <div class="rounded-circle bg-success" style="width: 1.5em; height: 1.5em;"></div>
+                                </div>
+                            </th>
+                            <td>
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-w" name="irokawa-drag-p1" id="irokawa-drag-p1-w" autocomplete="off"> Won
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-2" name="irokawa-drag-p1" id="irokawa-drag-p1-2" autocomplete="off"> 2nd Place
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-f" name="irokawa-drag-p1" id="irokawa-drag-p1-f" autocomplete="off"> Finished
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p1-dnf" name="irokawa-drag-p1" id="irokawa-drag-p1-dnf" autocomplete="off"> DNF
+                                    </label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-w" name="irokawa-drag-p2" id="irokawa-drag-p2-w" autocomplete="off"> Won
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-2" name="irokawa-drag-p2" id="irokawa-drag-p2-2" autocomplete="off"> 2nd Place
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-f" name="irokawa-drag-p2" id="irokawa-drag-p2-f" autocomplete="off"> Finished
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" class="p2-dnf" name="irokawa-drag-p2" id="irokawa-drag-p2-dnf" autocomplete="off"> DNF
+                                    </label>
+                                </div>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
