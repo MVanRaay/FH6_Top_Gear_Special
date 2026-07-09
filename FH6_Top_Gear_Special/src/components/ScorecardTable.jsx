@@ -1,63 +1,45 @@
-import ButtonGroup from "./ButtonGroup"
 import { Fragment } from "react"
+import SurfaceTypePill from "./SurfaceTypePill"
+import EventTypePill from "./EventTypePill"
+import ButtonGroup from "./ButtonGroup"
 
-export default function ScorecardTable({ numberOfPlayers }) {
-    const locations = [
-        "Fuji Shibazakura speed zone",
-        "Hakone Turns speed zone",
-        "Nangan Turn speed trap",
-        "Irokawa Launch danger sign",
-        "Irokawa Quarter Mile drag meet"
-    ]
-
-    const locationsShort = {
-        "Fuji Shibazakura speed zone" : "fuji-shibaz",
-        "Hakone Turns speed zone" : "hakone",
-        "Nangan Turn speed trap" : "nangan",
-        "Irokawa Launch danger sign" : "irokawa-launch",
-        "Irokawa Quarter Mile drag meet" : "irokawa-drag"
-    }
-
-    const locationsColors = {
-        "Fuji Shibazakura speed zone" : "border-primary",
-        "Hakone Turns speed zone" : "border-primary",
-        "Nangan Turn speed trap" : "border-warning",
-        "Irokawa Launch danger sign" : "border-danger",
-        "Irokawa Quarter Mile drag meet" : "border-success"
-    }
-
+export default function ScorecardTable({ numberOfPlayers, events }) {
     return (
         <table className="table table-striped table-bordered table-hover text-center align-middle">
-            <thead>
+            <thead className="sticky-top">
                 <tr>
+                    <th scope="col">Episode</th>
+                    <th scope="col">Chapter</th>
                     <th scope="col">Event</th>
+                    <th scope="col">Road Surface</th>
                     <th scope="col">Type</th>
-                    {[...Array(numberOfPlayers).keys()].map(key => <th scope="col" key={key}>Player {key + 1}</th>)}
+                    {[...Array(numberOfPlayers).keys()].map(key => 
+                        <th scope="col" key={key}>Player {key + 1}</th>
+                    )}
                 </tr>
             </thead>
             <tbody>
-                {locations.map((location, key) => (
+                {events.map((event, key) => (
                     <Fragment key={key}>
                         <tr>
+                            <td>
+                                {event.episode}
+                            </td>
+                            <td>
+                                {event.chapter}
+                            </td>
                             <th scope="row">
-                                <div className="d-flex flex-row justify-content-center">
-                                    <div className="pe-2">
-                                        {location}
-                                    </div>
-                                </div>
+                                {event.title}
                             </th>
                             <td>
-                                <div className={`border border-2 w-100 h-100 ${locationsColors[location]}`}>
-                                    <div className="d-flex flex-row justify-content-center">
-                                        <div className={`rounded `}>
-                                            Speed Trap
-                                        </div>
-                                    </div>
-                                </div>
+                                <SurfaceTypePill surfaceType={event.surfaceType} />
+                            </td>
+                            <td>
+                                <EventTypePill eventType={event.eventType} />
                             </td>
                             {[...Array(numberOfPlayers).keys()].map(playerIdx => 
                                 <td>
-                                    <ButtonGroup location={locationsShort[location]} player={playerIdx + 1} />
+                                    <ButtonGroup event={event.shortName} player={playerIdx + 1} />
                                 </td>
                             )}
                         </tr>
