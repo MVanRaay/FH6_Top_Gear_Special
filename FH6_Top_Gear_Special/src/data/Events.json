@@ -189,6 +189,123 @@
         "surfaceType" : "Asphalt"
     },
     {
+        "id" : 22,
+        "episode" : 4,
+        "chapter" : 1,
+        "title" : "Farmland Curve",
+        "shortName" : "farmland",
+        "eventType" : "Speed Zone",
+        "surfaceType" : "Asphalt"
+    },
+    {
+        "id" : 23,
+        "episode" : 4,
+        "chapter" : 2,
+        "title" : "Rollercoaster Leap",
+        "shortName" : "rollercoaster",
+        "eventType" : "Danger Sign",
+        "surfaceType" : "Asphalt"
+    },
+    {
+        "id" : 24,
+        "episode" : 4,
+        "chapter" : 3,
+        "title" : "River Split",
+        "shortName" : "river-split",
+        "eventType" : "Speed Trap",
+        "surfaceType" : "Asphalt"
+    },
+    {
+        "id" : 25,
+        "episode" : 4,
+        "chapter" : 4,
+        "title" : "Hanado",
+        "shortName" : "hanado",
+        "eventType" : "Speed Zone",
+        "surfaceType" : "Asphalt"
+    },
+    {
+        "id" : 26,
+        "episode" : 4,
+        "chapter" : 5,
+        "title" : "Minamino Curve",
+        "shortName" : "minamino-curve",
+        "eventType" : "Speed Zone",
+        "surfaceType" : "Asphalt"
+    },
+    {
+        "id" : 27,
+        "episode" : 4,
+        "chapter" : 6,
+        "title" : "Shirakawa-go",
+        "shortName" : "shirakawa-go",
+        "eventType" : "Danger Sign",
+        "surfaceType" : "Asphalt"
+    },
+    {
+        "id" : 28,
+        "episode" : 4,
+        "chapter" : 7,
+        "title" : "Shirakawa-go Straight",
+        "shortName" : "shirakawa-go-straight",
+        "eventType" : "Speed Trap",
+        "surfaceType" : "Asphalt"
+    },
+    {
+        "id" : 29,
+        "episode" : 4,
+        "chapter" : 8,
+        "title" : "Irabuohashi Bridge",
+        "shortName" : "irabuohashi",
+        "eventType" : "Speed Trap",
+        "surfaceType" : "Asphalt"
+    },
+    {
+        "id" : 30,
+        "episode" : 4,
+        "chapter" : 9,
+        "title" : "Hokubu Time Attack",
+        "shortName" : "hokubu",
+        "eventType" : "Time Attack",
+        "surfaceType" : "Asphalt"
+    },
+    {
+        "id" : 31,
+        "episode" : 5,
+        "chapter" : 1,
+        "title" : "Tall Trees",
+        "shortName" : "tall-trees",
+        "eventType" : "Speed Zone",
+        "surfaceType" : "Asphalt"
+    },
+    {
+        "id" : 32,
+        "episode" : 5,
+        "chapter" : 2,
+        "title" : "Bamboo Hilltop",
+        "shortName" : "bamboo-hilltop",
+        "eventType" : "Speed Trap",
+        "surfaceType" : "Asphalt"
+    },
+    {
+        "id" : 33,
+        "episode" : 5,
+        "chapter" : 3,
+        "title" : "Railway Bridge",
+        "shortName" : "railway-bridge",
+        "eventType" : "Danger Sign",
+        "surfaceType" : "Asphalt"
+    },
+    {
+        "id" : 34,
+        "episode" : 5,
+        "chapter" : 4,
+        "title" : "Flower Run",
+        "shortName" : "flower-run",
+        "eventType" : "Speed Trap",
+        "surfaceType" : "Asphalt"
+    },
+    {
         "id" : 0,
         "episode" : 0,
         "chapter" : 0,

@@ -81,7 +81,7 @@
 
 6. Continue north and turn right at the paved road to go complete the Shirakawa-go danger sign, 1 try each.
 
-7. Get back northwards towards Shirakawa-go Stright. Complete it, 3 tries each.
+7. Get back northwards towards Shirakawa-go Straight speed trap. Complete it, 3 tries each.
 
 8. Take the road heading east through the tunnel, and follow it until you reach the coast. Turn left, and complete the Irabuohashi Bridge speed trap, 3 tries each.
 
@@ -93,11 +93,11 @@
 
 1. From the Hokubu Time Attack, take the road south leaving the circuit and turn right to head west, merging with the other road headed the same way. Turn right down the dirt road and stay right to complete the Tall Trees speed zone, 3 tries each.
 
-2. Turn around and take the other fork in the dirt road to complete the Bamboo Hilltop speed trap.
+2. Turn around and take the other fork in the dirt road to complete the Bamboo Hilltop speed trap, 3 tries each.
 
-3. Continue down that road and turn left, then right across the trail, then left to get across the bridge. Upon reaching the paved roads, take the paved one almost straight ahead, leading west, then turn right down the trail to complete the Railway Bridge danger sign.
+3. Continue down that road and turn left, then right across the trail, then left to get across the bridge. Upon reaching the paved roads, take the paved one almost straight ahead, leading west, then turn right down the trail to complete the Railway Bridge danger sign, 1 try each.
 
-4. Turn back north and go complete the Flower Run speed trap
+4. Turn back north and go complete the Flower Run speed trap, 3 tries each
 
 ## Episode 6: Takashiro and Sotoyama
 
